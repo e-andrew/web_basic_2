@@ -1,0 +1,46 @@
+﻿.container{
+    display:flex
+}
+.symbol_background {
+    height: 100px;
+    width: 100px;
+    background-color: #EB0000;
+    border: 1px solid #616161;
+    position: relative;
+}
+
+.horizontal_position {
+    height: 22px;
+    width: 60px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    position: absolute;
+    top: 39px;
+    left: 20px;
+}
+
+.vertical_position {
+    height: 60px;
+    width: 22px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 39px;
+}
+
+.horizontal_transform {
+    height: 22px;
+    width: 60px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    transform: translate(20px, 39px);
+}
+
+.vertical_transform {
+    height: 22px;
+    width: 60px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    transform: translate(20px, 18px) rotate(90deg);
+}
